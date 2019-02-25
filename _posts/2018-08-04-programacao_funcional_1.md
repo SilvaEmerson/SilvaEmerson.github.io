@@ -1,7 +1,11 @@
+---
+title: "Programação Funcional — Python #1"
+published: true
+---
+
 # Programação Funcional — Python #1
 Funções Puras
 
-![Programação Funcional - Python #1](https://cdn-images-1.medium.com/max/2560/1*65NR-q_xT8nIzo_Nftb2xg.jpeg)
 
 ## Introdução
 Antes de me aventurar por esse fantástico mundo funcional, a primeira coisa que me vinha à mente era usar somente recursão para resolver problemas, mas acabei aprendendo que não é apenas isso.
@@ -33,6 +37,7 @@ pure_increment(elements, 0)
 pure_increment(elements, 0)
 #Function return: [2, 2, 3]
 ```
+
 No exemplo acima a função pure_increment irá incrementar o valor de um elemento em uma lista. E para torná-la pura passamos a lista e o índice da lista que será incrementado. Mas isso não é o suficiente. Vale lembrar de um fato importante: a lista no escopo da função ainda referencia a original, ou seja, qualquer mudança nela irá refletir na primeira, impossibilitando a pureza da função, recordando que uma função pura só pode operar com o que existe dentro do escopo da mesma. Por isso na linha 2 foi criado um cópia da lista usada, agora qualquer mudança nessa cópia não irá afetar a original. 
 **Done!**
 
