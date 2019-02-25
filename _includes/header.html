@@ -4,7 +4,7 @@
   {% assign icon_color = "#24292e" %}
 {% endif %}
 
-{% assign content = page.content | strip_newlines %}
+{% assign content = page.content %}
 
 {% assign posts_total = site.posts | size %}
 
@@ -17,5 +17,6 @@
     <title>{{ user.name }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="{{ "/assets/styles.css" | absolute_url }}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="{{ "/assets/prism.css" | absolute_url }}">
   </head>
   <body class="bg-white" {% if site.style == 'dark' %}style="background-color: #2f363d !important"{% endif %}>
