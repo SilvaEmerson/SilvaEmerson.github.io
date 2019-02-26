@@ -3,10 +3,6 @@ title: "Programação Funcional — Python #1"
 published: true
 ---
 
-# Programação Funcional — Python #1
-Funções Puras
-
-
 ## Introdução
 Antes de me aventurar por esse fantástico mundo funcional, a primeira coisa que me vinha à mente era usar somente recursão para resolver problemas, mas acabei aprendendo que não é apenas isso.
 

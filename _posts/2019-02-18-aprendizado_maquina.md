@@ -3,9 +3,6 @@ title: "Introdução ao Aprendizado de Máquina"
 published: true
 ---
 
-# Introdução ao Aprendizado de Máquina
-Conceitos básicos
-
 ## Introdução
 Os fenômenos do mundo real, em sua maioria, podem ser descritos como uma função matemática. Quanto mais complexo o evento, mais complexo são as leis que o descreve. Sabendo disso, técnicas de Aprendizado de Máquina exploram dessa característica, usando registros (dados) históricos do fenômeno em questão, para fazer uma aproximação de tais leis ([funções](https://pt.wikipedia.org/wiki/Fun%C3%A7%C3%A3o_%28matem%C3%A1tica%29)), esse processo de aproximação é o que chamamos de aprendizado. No gif abaixo é mostrado esse processo (linha vermelha).
 
