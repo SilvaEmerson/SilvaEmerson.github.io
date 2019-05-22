@@ -33,5 +33,10 @@ topics:
     web_url: https://github.com/topics/python
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/python/python.png
 
-repositories:
-  - sort_by: starts
+
+projects:
+  sort_by: stars
+  limit: 4
+  exclude:
+    archived: false
+    forks: true

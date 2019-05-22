@@ -1,5 +1,5 @@
 ---
-title: "Programação Funcional — Python #1"
+title: "Programação Funcional — Python #1 [PT-BR]"
 published: true
 ---
 

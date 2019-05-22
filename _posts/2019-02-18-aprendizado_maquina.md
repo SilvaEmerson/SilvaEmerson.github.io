@@ -1,5 +1,5 @@
 ---
-title: "Introdução ao Aprendizado de Máquina"
+title: "Introdução ao Aprendizado de Máquina [PT-BR]"
 published: true
 ---
 
