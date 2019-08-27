@@ -37,6 +37,3 @@ topics:
 projects:
   sort_by: stars
   limit: 4
-  exclude:
-    archived: false
-    forks: true
