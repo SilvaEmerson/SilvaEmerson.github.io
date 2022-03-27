@@ -21,19 +21,22 @@ defaults:
       layout: "post"
 
 topics:
-  - name: Clojure
-    web_url: https://github.com/topics/clojure
-    image_url: https://raw.githubusercontent.com/github/explore/a4f50275e9736bcd9f255084c4908627f5dd9069/topics/clojure/clojure.png
+  - name: Ruby
+    web_url: https://github.com/topics/ruby
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/ruby/ruby.png
 
-  - name: Node.js
-    web_url: https://github.com/topics/nodejs
-    image_url: https://raw.githubusercontent.com/github/explore/fd96fceccf8c42c99cbe29cf0f8dcc4736fcb85a/topics/nodejs/nodejs.png
+  - name: Docker 
+    web_url: https://github.com/topics/docker
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png
 
-  - name: Python
-    web_url: https://github.com/topics/python
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/python/python.png
+  - name: Elixir
+    web_url: https://github.com/topics/elixir
+    image_url: https://raw.githubusercontent.com/github/explore/d106aa3f6fa091ab80ab5c8cf0d931baff3caaea/topics/elixir/elixir.png
 
 
 projects:
   sort_by: stars
-  limit: 4
+  limit: 2
+  exclude:
+    forks: true
+
